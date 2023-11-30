@@ -1,0 +1,111 @@
+<body>
+    <div id="wrapper"> 
+     <header>
+       <h1>
+         <a href="../index.html">Security</a>
+       </h1>
+     </header>
+  
+   
+   <div id="navbar">
+     <nav>
+       <a href="../subpagina/bedreigingen.html" id="thispage"> Bedreigingen </a> 
+       <a href="../subpagina/hackers.html"> Hackers </a>
+       <a href="../subpagina/maatregelen.html"> Maatregelen </a>
+       <a href="../subpagina/veiligheid.html"> Veiligheid </a>
+     </nav>
+   </div>
+
+   <main>
+     <article class="bedreigingen" id="bedreigingen1"> 
+       <p><strong>Zwakheden in architectuur</strong></p>
+       ICT producten bestaan uit drie lagen:
+       <img src="../afbeeldingen/drielagenmodel.jpg" alt="drielagenmodel">
+       <ol>
+         <li>Fysieke laag</li>
+         <li>Logische laag</li>
+         <li>Toepassingen laag</li>
+       </ol> 
+       Een zwakheid in de architectuur maakt gebruik van een tekortkoming in een van deze lagen of in de communicatie van twee lagen. Zo’n probleem heet <strong>een lek.</strong> Als je een lek hebt heeft de kwaadwillende partij een zwakheid gevonden in de architectuur en maakt hier dan gebruik van. Een voorbeeld hiervan is bijvoorbeeld wanneer je een app download en die app je vervolgens op toestemming vraagt om je camera te gebruiken. Als je een lek hebt kan de kwaadwillende partij je camera gebruiken zonder toestemming.
+     </article>         
+      
+     <article class="bedreigingen" id="bedreigingen2">
+       <p><strong>Zwakheden in communicatie</strong></p> 
+         Er kunnen ook zwakheden in de communicatie zitten. Een voorbeeld hiervan is <strong>de man-in-the-middle</strong>. Hiermee kan de verbinding tussen twee (of meer) apparaten afgeluisterd worden. Dit gebeurt vaak bij openbare wifi. <br>
+        Door middel van een HTTPS-verbinding of End-to-end encryptionworden de verzonden gegevens door middel van encryptie onleesbaar gemaakt. Dit zijn de verschillen:
+         <table>
+           <tbody><tr>
+             <th><strong>HTTPS</strong></th>
+             <th><strong>End-to-end encryption</strong></th>
+           </tr>
+           <tr>
+             <td>De gegevens wordenversleuteld verstuurd tussen de client en de server.</td>
+             <td>De gegevens worden versleutelt nog voordat ze het internet op gaan, en ontsleutelt ze pas wanneer ze het internet verlaten.</td>
+           </tr>
+           <tr>
+             <td>De server kan de oorspronkelijke, onversleutelde gegevens inzien en opslaan.</td>
+             <td>Alleen jij en de ontvanger kunnen het ontsleutelen</td>
+           </tr>
+           <tr>
+             <td>Aanvallers kunnen inbreken op de servers om de onversleutelde gegevens te stelen.</td>
+             <td>End-to-end encryption lost problemen als gevolg van zwakheden in de communicatie én zwakheden in de architectuur op!</td>
+           </tr>
+         </tbody></table>
+       
+       </article>
+
+       <article class="bedreigingen" id="bedreigingen3">
+        <img src="https://www.lepide.com/blog/wp-content/uploads/2019/03/What-is-a-Brute-Force-Attack-The-Complete-Guide.png" alt="bruteforce">  
+        <p><strong>Zwakheden bij gebruikers</strong></p>
+         Een van de bekendste voorbeelden van zwakheden bij gebruikers is de manier waarop wij met wachtwoorden omgaan. Vaak worden er hele simpele wachtwoorden gekozen. Om een wachtwoord te kraken wordt er gebruik gemaakt van <strong>brute force</strong>:er wordt brute kracht ingezet om het wachtwoord te ontdekken. 
+       </article>
+     
+     <article class="bedreigingen" id="begreigingen4">
+       <p><strong>Techniecken</strong></p>
+       Belangrijkste technieken van hacken:
+       <ol>
+         <li><strong>Social engineering</strong>: het is geen digitale techniek, maar het maakt gebruik van psychologische trucjes om mensen iets te laten doen wat ze eigenlijk niet willen doen, zoals het vrijgeven van gegevens of wachtwoorden.</li>
+         <li><strong>Phishing</strong>: dit wordt gebruikt in combinatie met social engineering. Met phishing worden slachtoffers, veelal via een e-mail, naar een valse website gelokt. </li>
+         <li><strong>Malware</strong>: dit bestaat uit verschillende soorten. Lees hieronder er meer over</li>
+       </ol>
+     </article>
+
+     <article class="bedreigingen" id="bedreigingen5">
+       <img src="https://home.sophos.com/sites/default/files/2021-09/does-malware-exist.jpeg" alt="malware">
+       <p><strong>Malware</strong></p>
+       Malware is een samenvoeging van de woorden ‘malicious’ en ‘software’. Dit betekent ‘kwaadaardige software’. Het omvat alle programma’s die ontwikkeld zijn met kwaadwillende bedoelingen. De belangrijkste soorten:
+       <ol>
+          <li><strong>Trojan horse</strong>: dit is vernoemd naar het paard van Troje. Gebruikers hebben soms niet door dat ze malware binnenhalen. Dat komt doordat de malware verstopt zit in bijvoorbeeld een e-mailbijlage. Als je die bewuste e-mailbijlage of het gedownloade bestand opent, activeer je automatisch de trojan. Dit programma verspreidt zichzelf niet, de verspreiding komt altijd door mensen.</li>
+          <li><strong>Virus</strong>: Een virus besmet bestaande software. Het virus nestelt zich in de bestanden waarmee je software opstart. De besmette software richt vervolgens schade aan en verspreidt zichzelf naar andere computers.</li>
+          <li><strong>Worm</strong>: Een worm verspreidt zich automatisch. Soms heeft een worm geen kwade bedoelingen, maar dan heeft het nog steeds  een negatieve invloed op een computernetwerk.</li>
+          <li><strong>Spyware</strong>: Dit probeert informatie over het computergebruik te achterhalen. Dit wordt vervolgens, vaak via internet, doorgegeven aan de maker van de spyware.</li>
+          <li><strong>Adware</strong>: De ‘ad’ van adware staat voor advertentie. Het doel van adware is dus het weergeven van advertenties op je computer. Vaak wordt adware gebruikt om ongewenste reclames te geven. </li>
+          <li><strong>Randsomeware</strong>: Dit is een speciale soort malware.die vaak een systeem binnendringt als Trojan horse of door middel van een worm. Als ransomware eenmaal op een systeem staat, versleutelt het bestanden. Hierdoor zijn deze bestanden niet meer te gebruiken. Vervolgens verschijnt er een melding dat de gebruiker een geldbedrag moet betalen, om weer toegang te krijgen tot de versleutelde bestanden.</li>
+       </ol>
+     </article>     
+   </main>
+          
+   <footer>
+         <p>© 2022 | Gemaakt door Daria Gabrijel &amp; Thijs de Block</p>
+   </footer>
+   </div>
+
+ <script>
+   window.onscroll = function() {myFunction()};
+
+     var navbar = document.getElementById("navbar");
+     var sticky = navbar.offsetTop;
+
+   function myFunction() {
+     if (window.pageYOffset >= sticky) {
+     navbar.classList.add("sticky")
+       } 
+    else {
+     navbar.classList.remove("sticky");
+       }
+     }
+ </script>
+
+
+
+</body>
