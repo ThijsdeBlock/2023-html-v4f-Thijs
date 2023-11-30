@@ -17,3 +17,179 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
+header{
+   background-color: #b7edc8;
+   width: 100%;
+   font-size: 30pt;
+   font-family: lexend;
+   color: #000000;
+   padding: 10px;
+   text-align: center; 
+ }
+ 
+ nav a:hover{
+ text-decoration: none;
+ background-color: #d7facc; 
+ font-size:23pt;  
+ }
+ 
+ #thispage {
+   background-color: #8dd9a5;  
+ }
+ 
+ #navbar{
+   width: 920px;
+   background-color: #56b875;
+ }
+ 
+ #navbar a{
+   color:#000000;
+   font-family: lexend;
+   display:inline-block;
+   text-decoration: none;
+   font-weight: bold;
+   width: 227px;
+   height: 50px;  
+   text-align: center;
+   line-height: 50px;
+   font-size: 20pt;
+ }
+ 
+   .sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   }
+ 
+   .sticky + .content {
+   padding-top: 60px;
+ }
+ 
+ #hackers4{
+  height:230px; 
+ }
+ 
+ #hackers4 img{
+   float:left;
+   width:300px;
+   margin:15px;
+ }
+ 
+ 
+ #twee img {
+ float: right; 
+ margin:20px; 
+ width:250px;  
+ }
+ 
+ 
+ 
+ #wrapper{
+   width: 900px;
+   margin: auto;
+   background-color:white;
+   line-height: 2;
+ }
+ 
+ article {
+   background-color: #d7facc;
+   width:910px;
+   font-size:15pt;
+   font-family:lexend;
+   padding-left: 10px;
+ }
+ 
+ article img{
+   width:200px;
+   margin:10px;
+   float:right;
+ }
+ 
+ #hackers2 {
+   height:190px;
+ }
+ 
+ #hackers2 img{
+   height: 150px;
+   margin:20px;
+ }
+ 
+ #veiligheid2 img{
+   width: 200px;
+   margin:25px;
+ }
+ #twee {
+   width: 910px;
+   height: 275px;
+   margin-top:20px;
+ }
+ 
+ 
+ #bedreigingen1{
+ height:480px;  
+ }
+ 
+ #bedreigingen1 img{
+   margin:20px;
+   margin-right:70px;
+   width:310px;
+ }
+ 
+ #bedreigingen2{
+   height:660px;
+ }
+ 
+ #bedreigingen2 img{
+ float: right; 
+ margin:20px; 
+ width:400px; 
+ margin-top:40px;  
+ }
+ 
+ 
+ header a{
+   text-decoration: none;
+   color: #000000
+ }
+ 
+ footer{
+  width: 920px;
+ background-color: #56b875;  
+ font-size:14pt;
+ }
+ 
+ #maatregelen1{
+   height:400px; 
+ }
+ 
+ #maatregelen2{
+   height:320px;
+ }
+ 
+ #maatregelen2 img{
+   height:300px;
+   margin:15px;
+ }
+ 
+ table {
+   font-family: lexend;
+   border-collapse: collapse;
+   width: 900px;
+ }
+ 
+ td, th {
+   border: 2px solid #56b875;
+   text-align: left;
+   padding: 4px;
+ }
+ 
+ #bedreigingen3 img{
+   margin:20px;
+   margin-top:60px;
+ }
+ 
+ #bedreigingen5 img{
+   margin:20px;
+   margin-top:59px;
+   width:250px;
+ }
