@@ -127,7 +127,8 @@ header{
  
  
  #bedreigingen1{
- width: 650px;  
+ width: 650px; 
+ float:  right;
  }
  
  #bedreigingen1 img{
