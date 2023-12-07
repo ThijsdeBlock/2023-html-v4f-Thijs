@@ -1,0 +1,53 @@
+<html lang='nl'>
+    
+    <head>
+     <link rel="stylesheet" type="text/css" href="style.css">
+      <title> Bedreigingen</title>
+    </head>
+    
+    <body>
+       <div id='wrapper'> 
+        <header>
+          <h1>
+            <a href="index.html">Security</a>
+          </h1>
+        </header>
+     
+      
+      <div id="navbar">
+        <nav>
+        <a href="bronnen.html" id="thispage" > Bronnen</a>
+        <a href="bedreigingen.html" > Bedreigingen </a>
+        <a href="beveiliging.html" > Beveiliging </a>
+       <a href="contact.html" > Contact </a>
+      
+        </nav>
+      </div>
+
+      <main>   
+      </main>
+             
+      <footer>
+            <p>© 2023 | Gemaakt door Daria Gabriel & Thijs de Block</p>
+      </footer>
+      </div>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+  
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+  
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+          } 
+       else {
+        navbar.classList.remove("sticky");
+          }
+        }
+    </script>
+  </body>
+   
+   
+</html>
