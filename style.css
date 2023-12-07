@@ -39,7 +39,7 @@ header{
  }
  
  #navbar{
-   width: 230px;
+   width: 920px;
    background-color: #56b875;
  }
  
@@ -94,7 +94,7 @@ header{
  
  article {
    background-color: #d7facc;
-   width:650px;
+   width:920px;
    font-size:15pt;
    font-family:lexend;
    padding-left: 10px;
@@ -142,7 +142,6 @@ header{
  }
  
  #bedreigingen2 img{
- float: right; 
  margin:20px; 
  width:400px; 
  margin-top:40px;  
