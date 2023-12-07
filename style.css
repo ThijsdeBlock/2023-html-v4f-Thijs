@@ -30,7 +30,8 @@ header{
  nav a:hover{
  text-decoration: none;
  background-color: #d7facc; 
- font-size:23pt;  
+ font-size:23pt;
+ float: left;  
  }
  
  #thispage {
@@ -38,7 +39,7 @@ header{
  }
  
  #navbar{
-   width: 920px;
+   width: 230px;
    background-color: #56b875;
  }
  
