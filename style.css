@@ -23,7 +23,7 @@ header{
   font-size: 30pt;
   font-family: lexend;
   color: #000000;
-  padding: 20px;
+  padding: 10px;
   text-align: center; 
 }
 
@@ -38,7 +38,7 @@ font-size:23pt;
 }
 
 #navbar{
-  width: 930px;
+  width: 910px;
   background-color: #56b875;
 }
 
@@ -93,7 +93,7 @@ width:250px;
 
 article {
   background-color: #d7facc;
-  width:920px;
+  width:910px;
   font-size:15pt;
   font-family:lexend;
   padding-left: 10px;
@@ -121,7 +121,7 @@ article img{
   margin:25px;
 }
 #twee {
-  width: 920px;
+  width: 910px;
   height: 275px;
   margin-top:20px;
 }
