@@ -1,6 +1,6 @@
 header {
-    background-color: #C2E6B2;
-    color: #000000;
+    background-color: #81A684;
+    color: #FEFCFB;
     font-weight: 900;
     width: 910px;
     height: 100px;
@@ -13,11 +13,11 @@ header {
  }
  
  nav {
-    background-color: #5E9A5B;
+    background-color: #57886C;
     width: 920px;
     height: 30px;
     font-family: Tahoma, sans-serif;
-    color: #000000;
+    color: #FEFCFB;
     font-size: 18px;
     margin: auto;
     text-align: center;
@@ -25,7 +25,7 @@ header {
  }
  
  nav a {
-   color: white;
+   color:#FEFCFB ;
    text-decoration: none;
    margin-right: 20px;
    line-height: 10px;
@@ -34,7 +34,7 @@ header {
 }
 nav a:hover {
    text-decoration: underline;
-   background-color: #3b6139;
+   background-color: #81A684;
    border-radius: 5px;
    padding: 10px 15px;
 }
@@ -46,7 +46,7 @@ nav a:hover {
 main {
    width: 900px;
    height: 600px;
-   background-color:#a1ff89;
+   background-color: #81A684;
    margin: 0 auto;
    padding: 20px;
 }
@@ -62,22 +62,23 @@ main {
     width: 380px;
     height: 360px;
     margin: 15px auto;
-    background-color: #C2E6B2;
-    border: 2px solid #5E9A5B;
+    background-color: #FEFCFB;
+    border: 2px solid #232C33;
     padding: 10px;
     text-align: center;
     float: left;
+    border-radius: 10px;
  }
 
  article h2 {
     font-size: 18pt;
-    color: #000000;
+    color: #232C33;
  }
 
  article p {
     font-family: Tahoma, sans-serif;
     font-size: 15pt;
-    color: #000000;
+    color: #232C33;
     text-align: center;
  }
 
@@ -85,7 +86,8 @@ main {
    width: 440px; 
    height: auto; 
    margin: 15px 0 15px 10px;
-   border: 2px solid #5E9A5B;
+   border: 2px solid #232C33;
+   border-radius: 10px;
 
  }
  .artikeleronder {
@@ -95,26 +97,27 @@ main {
  .artikeltwee {
    width: 880px;
    height: 160px;
-   background-color: #C2E6B2;
-   border: 2px solid #5E9A5B;
+   background-color: #FEFCFB;
+   border: 2px solid #232C33;
    padding: 10px;
    text-align: center;
    margin: 0 auto;
+   border-radius: 10px;
  }
  .artikeltwee h2 {
    font-size: 15pt;
-   color: #000000;
+   color: #232C33;
    line-height: 1.5;
  }
 .artikeltwee p {
    font-family: Tahoma, sans-serif;
    font-size: 13pt;
-   color: #000000;
+   color: #232C33;
    text-align: center;
 }
 
 footer {
-   background-color: #C2E6B2;
+   background-color: #57886C;
    width: 920px;
    height: 20px;
    font-family: Verdana, sans-serif;
@@ -122,5 +125,6 @@ footer {
    text-align: left;
    margin: auto;
    padding: 10px;
+   
 }
 
