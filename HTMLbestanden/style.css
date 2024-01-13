@@ -113,12 +113,15 @@ main {
    font-size: 18pt;
    color: #232C33;
    line-height: 1.5;
+   margin-top: 0px;
  }
 .artikeltwee p {
    font-family: Tahoma, sans-serif;
    font-size: 15pt;
    color: #232C33;
    text-align: center;
+   margin-top: 0px;
+
 }
 
 footer {
@@ -133,4 +136,25 @@ footer {
    padding: 10px;
    
 }
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 0px;
+}
+
+th {
+   background-color: #57886C;
+   color: #FEFCFB;
+   font-weight: bold;
+   padding: 10px;
+   border: 1px solid #232C33
+}
+
+td {
+   background-color: #FEFCFB;
+   border: 1px solid #232C33;
+   padding: 10px;
+}
+
 
