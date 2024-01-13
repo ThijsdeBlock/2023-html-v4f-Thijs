@@ -35,6 +35,8 @@ nav {
     float: left;
     margin-left: -5px;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
 
 }
 nav a {
@@ -63,11 +65,14 @@ article {
     padding: 15px;
     text-align: center;
     margin-top: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
 }
 
 article h2 {
     font-size: 18pt;
     color: #232C33;
+    margin-top: 0px;
 }
 
 article p {
@@ -94,11 +99,14 @@ article p {
     font-size: 15pt;
     color: #232C33;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
 }
 
 #nogeenartikel h2 {
     font-size: 18pt;
-    color: #232C33;
+    color: #232c33;
+    margin-top: 0px;
 }
 
 #nogeenartikel p {
@@ -113,6 +121,8 @@ article p {
     position: relative;
     object-fit: cover;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
 }
 
 footer {
