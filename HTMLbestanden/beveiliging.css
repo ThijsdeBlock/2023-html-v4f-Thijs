@@ -1,0 +1,97 @@
+header {
+    background-color: #C2E6B2;
+    color: #000000;
+    font-weight: 900px;
+    height: 100px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    font-size: 20pt;
+    line-height: 90px;
+}
+
+main {
+    width: 900px;
+    height: 600px;
+    background-color:#a1ff89;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #5E9A5B;
+    width: 220px;
+    height: 125px;
+    font-family: Tahoma, sans-serif;
+    color: #000000;
+    font-size: 18pt;
+    margin: 0 auto;
+    text-align: left;
+    display: block;
+    float: left;
+    margin-left: -19px;
+    margin-top: 5px;
+}
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    line-height: 10px;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: #3b6139;
+    border-radius: 5px;
+}
+article {
+    width: 550px;
+    height: 125px;
+    margin: 20px 0;
+    background-color: #C2E6B2;
+    border: 2px solid #5E9A5B;
+    padding: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+article h2 {
+    font-family: Tahoma, sans-serif;
+    font-size: 18pt;
+    color: #000000;
+}
+
+article p {
+    font-family: Tahoma, sans-serif;
+    font-size: 15pt;
+    color: #000000;
+}
+
+#nogeenartikel {
+    width: 400px;
+    height: 250px;
+    margin: 20px 0;
+    background-color: #C2E6B2;
+    border: 2px solid #5E9A5B;
+    padding: 15px;
+    text-align: center;
+}
+#nogeenartikel h2 {
+    font-size: 18pt;
+    color: #000000;
+}
+
+#nogeenartikel {
+    font-size: 15pt;
+    color: #000000;
+}
+
+
+
