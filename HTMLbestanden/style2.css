@@ -124,7 +124,9 @@ article p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
 }
-
+.wittetekst {
+    color: #FEFCFB
+}
 footer {
     background-color: #57886C;
     color: #FEFCFB;
