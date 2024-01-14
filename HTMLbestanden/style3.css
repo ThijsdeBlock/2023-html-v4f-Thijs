@@ -12,7 +12,7 @@ article {
     background-color: #fefcfb;
     border: 1px solid #232C23;
     text-align: center;
-    margin: 0px auto 20px;
+    margin: 0 auto 20px;
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -22,14 +22,14 @@ article {
     font-size: 18pt;
     color: #232C33;
     line-height: 1.5;
-    margin-top: 0px;
+    margin-top: 0;
   }
  .artikeltwee p {
     font-family: Tahoma, sans-serif;
     font-size: 15pt;
     color: #232C33;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 0;
  }
 
  .groepjefotos {
@@ -48,6 +48,7 @@ article {
  }
  ul {
    list-style-type: circle;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 li {

@@ -6,7 +6,7 @@ header {
     margin: auto;
     padding: 15px;
     text-align: center;
-    font-family: Verdana, sans-serif;
+    font-family: Verdana;
     font-size: 20pt;
     line-height: 90px;
 }
@@ -26,7 +26,7 @@ nav {
     background-color: #57886C;
     width: 220px;
     height: 210px;
-    font-family: Tahoma, sans-serif;
+    font-family: Tahoma;
     color: #FEFCFB;
     font-size: 18px;
     margin: 0 auto;
@@ -76,7 +76,7 @@ article h2 {
 }
 
 article p {
-    font-family: Tahoma, sans-serif;
+    font-family: Tahoma;
     font-size: 15pt;
     color: #232C33;
     text-align: center;
@@ -110,7 +110,7 @@ article p {
 }
 
 #nogeenartikel p {
-    font-family: Tahoma, sans-serif;
+    font-family: Tahoma;
     font-size: 15pt;
     color: #232C33;
 }
@@ -130,7 +130,7 @@ footer {
     color: #FEFCFB;
     width: 920px;
     height: 20px;
-    font-family: Verdana, sans-serif;
+    font-family: Verdana;
     font-size: 12pt;
     text-align: left;
     margin: auto;

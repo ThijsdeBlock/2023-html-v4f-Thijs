@@ -7,7 +7,7 @@ header {
     margin: auto;
     padding: 15px;
     text-align: center;
-    font-family: Verdana, sans-serif;
+    font-family: Verdana;
     font-size: 21pt;
     line-height: 90px;
  }
@@ -16,7 +16,7 @@ header {
     background-color: #57886C;
     width: 920px;
     height: 30px;
-    font-family: Tahoma, sans-serif;
+    font-family: Tahoma;
     color: #FEFCFB;
     font-size: 18px;
     margin: auto;
@@ -78,7 +78,7 @@ main {
  }
 
  article p {
-    font-family: Tahoma, sans-serif;
+    font-family: Tahoma;
     font-size: 15pt;
     color: #232C33;
     text-align: center;
@@ -88,7 +88,6 @@ main {
    width: 440px; 
    height: auto; 
    margin: 0 0 10px 0;
-   border: 2px solid #232C33;
    border-radius: 10px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
@@ -116,7 +115,7 @@ main {
    margin-top: 0px;
  }
 .artikeltwee p {
-   font-family: Tahoma, sans-serif;
+   font-family: Tahoma;
    font-size: 15pt;
    color: #232C33;
    text-align: center;
@@ -129,7 +128,7 @@ footer {
    background-color: #57886C;
    width: 920px;
    height: 20px;
-   font-family: Verdana, sans-serif;
+   font-family: Verdana;
    font-size: 12pt;
    color: #FEFCFB;
    text-align: left;
@@ -165,6 +164,6 @@ ul {
 li {
    color: #232C33;
    font-size: 13pt;
-   font-family: Tahoma, sans-serif;
+   font-family: Tahoma;
    text-align: left;
 }
