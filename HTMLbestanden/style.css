@@ -59,9 +59,9 @@ main {
  }
 
  article {
-    width: 380px;
+    width: 400px;
     height: 360px;
-    margin: 15px auto;
+    margin:  0 0 10px 0;
     background-color: #FEFCFB;
     border: 2px solid #232C33;
     padding: 10px;
@@ -69,6 +69,7 @@ main {
     float: left;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 0px;
  }
 
  article h2 {
@@ -86,11 +87,10 @@ main {
  img {
    width: 440px; 
    height: auto; 
-   margin: 15px 0 15px 10px;
+   margin: 0 0 10px 0;
    border: 2px solid #232C33;
    border-radius: 10px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-
 
  }
  .artikeleronder {
