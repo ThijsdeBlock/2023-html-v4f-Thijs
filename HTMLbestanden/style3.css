@@ -46,7 +46,17 @@ article {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
  }
+ ul {
+   list-style-type: circle;
+}
 
+li {
+   color: #232C23;
+   font-size: 16pt;
+   font-family: Tahoma, sans-serif;
+   text-align: left;
+   text-decoration: underline;
+}
  footer {
     background-color: #57886C;
     width: 920px;
