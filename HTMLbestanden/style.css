@@ -121,6 +121,7 @@ main {
    color: #232C33;
    text-align: center;
    margin-top: 0px;
+   margin-bottom: 0px;
 
 }
 
@@ -157,4 +158,13 @@ td {
    padding: 10px;
 }
 
+ul {
+   list-style-type: circle;
+}
 
+li {
+   color: #232C33;
+   font-size: 13pt;
+   font-family: Tahoma, sans-serif;
+   text-align: left;
+}
